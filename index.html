@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Emojis</title>
+</head>
+<body>
+    <header>
+        <h1><span class="span-judul">Emoj</span>is</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#card">Card</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME START -->
+        <section id="home">
+            <article class="header">
+                <h2>Welcome to <span class="span-judul">Emoj</span>is</h2>
+                <p> Here you can express yourself by making cute and cool cards.</p>
+            </article>
+            <section class="main">
+
+                <div class="content">
+                    <div class="image">
+                        <img src="asset/emoji.png" alt="foto kumpulan emoji" id="emojis">
+                        <figcaption>"Ekspresikan dirimu dengan <span class="span-judul">Emoj</span>is"</figcaption>
+                    </div>
+
+                    <div class="charming">
+                        <div class="pict-profil">
+                            <img src="asset/charming.svg" alt="face emot" height="50px" width="50px">
+                        </div>
+                        <div class="keterangan-profil">
+                            <h3>Charming</h3>
+                            <p>"Kegembiraanmu sungguh menular! Saya ikut bahagia melihatmu seperti ini."</p>
+                        </div>
+                    </div>  
+
+                    <div class="sad">
+                        <div class="pict-profil">
+                            <img src="asset/sad1.svg" alt="face emot" height="50px" width="50px">
+                        </div>
+                        <div class="keterangan-profil">
+                            <h3>Sad</h3>
+                            <p>"Tetaplah tegar meskipun dalam situasi sulit. Ada cahaya di ujung setiap lorong gelap."</p>
+                        </div>
+                    </div> 
+                </div>
+                
+
+                <div class="form">
+                        <h2>Create card</h2>
+                        <p>Ekspresikan dirimu dengan Emojis card</p>
+                        <input type="text" placeholder="Username" id="name" autocomplete="off">
+                    
+                        <input type="text" placeholder="Zodiak" id="zodiak">
+                    
+                        <input type="text" placeholder="Your fav color  (Example : Red/#FC6736)" id="colour">
+                    
+                    <select name="flower" id="flower">
+                        <option selected disabled>What You Feel</option>
+                       <option value="happy">Happy</option>
+                       <option value="sad">Sad</option>
+                       <option value="angry">Angry</option>
+                       <option value="love">Love</option>
+                       <option value="empty">Empty</option>
+                    </select>
+                        <textarea name="" id="txt" cols="30" rows="10" placeholder="Your Quotes"></textarea>
+                        <input type="submit" value="Create" id="button">
+                    
+                </div>
+
+            </section>
+        </section>
+        <!-- HOME END -->
+
+        <!-- Keranjang start -->
+            <section id="card">
+                <article class="keranjang-header">
+                    <h2>Your <span class="span-judul">Emoj</span>is</h2>
+                </article>
+
+                <section class="list-keranjang">
+
+                </section>
+            </section>
+        <!-- Keranjang END -->
+    </main>
+    <footer id="about">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>About Us</h3>
+                <p>Melina</p>
+                <p>SMK GANESHA CIMANGGUNG</p>
+            </div>
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: melinamelani268gmail.com<br>Phone: 082111971792</p>
+            </div>
+           
+        </div>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
